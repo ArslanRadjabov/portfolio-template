@@ -45,6 +45,9 @@ body {
   color:  #83888F;
   line-height: 15px;
 }
+.header__item-link:hover{
+  color:#5FB4A2;
+}
 .header__menu{
   font-size: 30px;
   border:none;
@@ -59,8 +62,8 @@ body {
   background-size: cover;
   background-position: center;
   border-radius: 15px;
-  width: 100%;
-  height: 100vh;
+  /* width: 100; */
+  height: 68vh;
   margin-bottom: 100px;
 }
 .hero__desc {
@@ -93,6 +96,7 @@ body {
   padding: 0 10px;
   font-size: 30px;
   color: rgb(9, 112, 143);
+  transition: all 0.5s ease;
 }
 .hero__link {
   color: #fff;
@@ -106,9 +110,13 @@ body {
 }
 .hero__btn:hover{
   color: #fff;
-  background-color: #000;
+  background-color:  #5FB4A2;
 }
+.hero__btn:hover .bx-chevrons-down{
+  transition: all 0.5s ease;
+  transform: translateY(10px);
 
+}
 
 
 .about__main {
@@ -156,10 +164,10 @@ body {
   padding: 17px 35px;
   text-decoration: none;
   border: 2px solid #203A4C;
-  width: 70%;
+  width: 60%;
 }
 .about__link:hover{
-  background-color: #203A4C;
+  background-color: #5FB4A2;
   color: #fff;
 }
 .target__main{
@@ -168,9 +176,10 @@ body {
   align-items: center;
   padding: 100px 0;
   justify-content: space-between;
+  color: #33323D  ;
 }
 .target__line{
-  width: 100%;
+  width: 70%;
 }
 .target__title {
   font-weight: bold;
@@ -190,6 +199,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-left: 32px;
+  /* width: 20%; */
 }
 .footer{
   background-color: #33323D;
@@ -292,8 +302,10 @@ body {
     display: block;
     position: relative;
     right: 0px;
+  } 
+  .hero__main{
+  height: 43vh;
   }
-
   .hero__title{
     font-size: 50px;
     line-height: 50px;
@@ -369,13 +381,13 @@ body {
     position: relative;
     border-radius: 15px;
     width: 100%;
-    height: 100%;
-    margin-bottom: 500px;
+    height: 28vh;
+    margin-bottom: 413px;
   }
    
   .hero__desc {
     position: relative;
-    top: 400px;
+    top: 300px;
     padding: 50px 0;
     max-width: 576px;
     width: 100%;
@@ -425,6 +437,9 @@ body {
   .footer__nav {
     align-items: center;
     flex-direction: column;
+  }
+  .footer__nav a{
+    margin-bottom: 32px;
   }
   .footer__list {
     display: flex;
