@@ -63,7 +63,7 @@ body {
   background-position: center;
   border-radius: 15px;
   /* width: 100; */
-  height: 68vh;
+  height: 100vh;
   margin-bottom: 100px;
 }
 .hero__desc {
@@ -253,6 +253,12 @@ body {
   .header__logo{
     z-index: 1000;
   }
+  .about__img {
+    background-image: url(../images/man.jpg);
+    background-size: cover;
+    width: 540px;
+    background-position-x: center;
+  }
 
 @media screen  and (max-width: 768px){ 
   .container{
@@ -304,15 +310,16 @@ body {
     right: 0px;
   } 
   .hero__main{
-  height: 43vh;
+  height: 100%;
   }
   .hero__title{
     font-size: 50px;
     line-height: 50px;
   }
   .about__img{
-    background-position: center;
+    background-position-y: center;
   }
+  
   .target__main{
     flex-direction: column;
     text-align: center;
@@ -381,7 +388,7 @@ body {
     position: relative;
     border-radius: 15px;
     width: 100%;
-    height: 28vh;
+    height: 56vh;
     margin-bottom: 413px;
   }
    
@@ -412,6 +419,9 @@ body {
   }
   .about__desc{
     margin-left: 0px;
+  }
+  .about__title{
+    border: none;
   }
   .target__main{
     flex-direction: column;
