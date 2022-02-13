@@ -255,7 +255,7 @@ body {
   .about__img {
     background-image: url(../images/man.jpg);
     background-size: cover;
-    width: 540px;
+    width: 100%;
     background-position-x: center;
   }
 

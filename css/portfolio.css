@@ -187,10 +187,19 @@
       flex-direction: row-reverse;
     }
   }
+  @media screen and (max-width:	960px) {
+    .manage__img{
+        max-width: 339px;
+    }
+
+    }
   
   @media screen and (max-width:	540px) {
     .main__line-start{
       margin-bottom: 50px;
+    }
+    .main__imgs{
+        width: 100%;
     }
     .main__line-end{
       margin-top: 50px;
@@ -202,6 +211,7 @@
       padding-right: 0;
     }
     .manage__img{
+      max-width: 311px;  
       margin-bottom: 0;
     }
     .templates__btn-prev{
