@@ -7,6 +7,9 @@
     --text-color: #33323d;
     --line-color:#d4d4d6;
   }
+  .body{
+      overflow-x: hidden;
+  }
   .main {
     padding: 50px 0px;
   }
